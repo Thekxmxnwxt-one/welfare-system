@@ -1,0 +1,20 @@
+.benefit-balance-container {
+    padding: 10px; /* เพิ่ม padding รอบๆ */
+    display: flex; /* ใช้ Flexbox */
+    flex-direction: column; /* ให้เนื้อหาต่อเนื่องในแนวตั้ง */
+    flex-grow: 1; /* ให้ Container ใช้พื้นที่ที่เหลือ */
+    margin-left: 250px; /* เว้นระยะจาก Sidebar */
+    overflow-y: auto; /* ทำให้มี scroll bar เมื่อเนื้อหายาว */
+}
+
+.benefit-card {
+    width: 100%; /* ให้การ์ดใช้ความกว้างเต็มที่ */
+    max-width: 700px; /* ปรับขนาดความกว้างสูงสุดของการ์ดให้เล็กลง */
+    margin-bottom: 15px; /* ลดระยะห่างระหว่างการ์ด */
+    margin-top: 15px; /* ลดระยะห่างด้านบน */
+    height: auto; /* ปรับความสูงของการ์ดให้เหมาะสม */
+    border: 1px solid #d9d9d9; /* กรอบสีเทาอ่อน */
+    border-radius: 4px; /* ทำมุมการ์ดให้มน */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* เงาของกรอบ */
+    background-color: #fff; /* สีพื้นหลังของการ์ด */
+}

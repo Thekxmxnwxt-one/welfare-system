@@ -1,0 +1,99 @@
+/* ครอบคลุมเนื้อหาทั้งหน้า */
+.claims-status-page {
+    min-height: 100vh;
+    background-color: #f7f9fc; /* สีพื้นหลัง */
+    padding: 20px;
+}
+
+/* จัดตารางและปุ่ม */
+.claims-tables-container {
+    width: calc(100% - 250px); /* เว้นที่ด้านซ้ายให้กับ Sidebar */
+    margin-left: 250px; /* เว้นพื้นที่ด้านซ้าย */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* จัดเรียงแนวตั้ง */
+}
+
+/* ปุ่มสร้างเคลม */
+.create-claim-button {
+    align-self: flex-start; /* ปุ่มอยู่ทางซ้าย */
+    background-color: #161a2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px; /* ระยะห่างระหว่างปุ่มกับตาราง */
+    transition: background-color 0.3s; /* เพิ่มการเปลี่ยนสีเมื่อ hover */
+}
+
+.create-claim-button:hover {
+    background-color: #4f52ba; /* เปลี่ยนสีเมื่อ hover */
+}
+
+/* คอนเทนเนอร์ของสองตาราง */
+.tables-container {
+    display: flex; /* จัดให้ตารางอยู่ในแถวเดียวกัน */
+    gap: 20px; /* ระยะห่างระหว่างสองตาราง */
+    width: 100%; /* ให้กินพื้นที่เต็ม */
+}
+
+/* ตารางแต่ละตัว */
+.table-container {
+    flex: 1; /* ให้ตารางแต่ละตัวมีขนาดเท่ากัน */
+    background-color: white; /* สีพื้นหลังของตาราง */
+    padding: 15px;
+    border-radius: 8px; /* มุมโค้ง */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* เงา */
+    display: flex; /* ใช้ Flexbox เพื่อให้แน่ใจว่าเนื้อหาอยู่ในแถวเดียวกัน */
+    flex-direction: column; /* จัดเรียงแนวตั้งภายในตาราง */
+}
+
+/* สไตล์หัวข้อ */
+h2 {
+    font-size: 1rem; /* ขนาดฟอนต์ */
+    color: #161a2d; /* สีหัวข้อ */
+    margin-bottom: 10px; /* ระยะห่างใต้หัวข้อ */
+    text-align: left; /* จัดตำแหน่งซ้าย */
+    font-weight: bold; /* ทำให้หัวข้อหนาขึ้น */
+    border-bottom: 2px solid #161a2d; /* เส้นใต้หัวข้อ */
+    padding-bottom: 5px; /* เพิ่มพื้นที่ใต้หัวข้อ */
+}
+
+/* ตาราง */
+.claims-table {
+    width: 100%; /* ให้ตารางกินพื้นที่เต็ม */
+    border-collapse: collapse; /* ยุบขอบตาราง */
+    margin-top: 10px; /* ระยะห่างจากด้านบน */
+}
+
+.claims-table th,
+.claims-table td {
+    padding: 12px; /* ระยะห่างในเซลล์ */
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    border-bottom: 1px solid #ddd; /* เส้นใต้สำหรับแยกแถว */
+}
+
+/* หัวตาราง */
+.claims-table th {
+    background-color: #161a2d; /* สีพื้นหลังของหัวตาราง */
+    color: white; /* สีข้อความของหัวตาราง */
+    font-size: 1.1rem; /* ปรับขนาดฟอนต์ของหัวตาราง */
+}
+
+/* แถวสลับสี */
+.claims-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* สีพื้นหลังสำหรับแถวคู่ */
+}
+
+/* เปลี่ยนสีเมื่อ hover */
+.claims-table tr:hover {
+    background-color: #ddd; /* สีเมื่อ hover บนแถว */
+}
+
+/* สีข้อความ */
+.claims-table td {
+    color: #161a2d; /* สีข้อความในตาราง */
+    font-size: 1rem; /* ขนาดฟอนต์ของข้อมูลในตาราง */
+}

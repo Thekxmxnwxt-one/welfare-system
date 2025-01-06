@@ -1,0 +1,66 @@
+.request-health-check {
+    display: flex;
+    flex-direction: column; /* จัดให้องค์ประกอบทั้งหมดในคอนเทนเนอร์อยู่ในแนวตั้ง */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.request-health-check-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* กำหนดความกว้างสูงสุด */
+    box-sizing: border-box;
+}
+
+/* หัวข้อหลัก */
+.request-health-check h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 40px; /* เพิ่มระยะห่างจากฟอร์ม */
+}
+
+/* สไตล์สำหรับฟอร์ม */
+.request-health-check form {
+    display: flex;
+    flex-direction: column;
+}
+
+.request-health-check label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.request-health-check input[type="text"],
+.request-health-check input[type="date"],
+.request-health-check select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ปุ่มยืนยันการขอ */
+.request-health-check button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.request-health-check button:hover {
+    background-color: #218838;
+}

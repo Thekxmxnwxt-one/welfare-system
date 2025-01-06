@@ -1,0 +1,43 @@
+/* WelfareCard CSS */
+.welfare-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 280px; /* ระยะห่างจาก Sidebar */
+    padding: 20px;
+  }
+  
+  .welfare-card {
+    width: 18rem;
+    margin: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .welfare-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .welfare-card img {
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .welfare-card-body {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .welfare-card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  

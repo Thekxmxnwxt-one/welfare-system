@@ -1,0 +1,84 @@
+.admin-claims-management {
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.claims-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.claims-table button {
+    padding: 12px 20px;
+    background-color: #336bee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.claims-table th,
+.claims-table td {
+    padding: 12px; /* ระยะห่างในเซลล์ */
+    text-align: left; /* จัดข้อความไปทางซ้าย */
+    border-bottom: 1px solid #ddd; /* เส้นใต้สำหรับแยกแถว */
+}
+
+.claims-table th {
+    background-color: #161a2d; /* สีพื้นหลังของหัวตาราง */
+    color: white; /* สีข้อความของหัวตาราง */
+    font-size: 1.1rem; /* ปรับขนาดฟอนต์ของหัวตาราง */
+}
+
+.claim-detail {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.claim-detail .button-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.claim-detail button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+}
+
+/* สไตล์สำหรับปุ่ม submit */
+.claim-detail .button-submit button {
+    background-color: #28a745;
+}
+
+.claim-detail .button-submit button:hover {
+    background-color: #218838;
+}
+
+/* สไตล์สำหรับปุ่ม reject */
+.claim-detail .button-reject button {
+    background-color: #d61515;
+}
+
+.claim-detail .button-reject button:hover {
+    background-color: #922222;
+}
+
+/* สไตล์สำหรับปุ่ม close */
+.claim-detail .button-close button {
+    background-color: #cfa315;
+}
+
+.claim-detail .button-close button:hover {
+    background-color: #a38628;
+}

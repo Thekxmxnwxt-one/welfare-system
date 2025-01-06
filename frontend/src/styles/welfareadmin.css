@@ -1,0 +1,60 @@
+/* เนื้อหาหลัก */
+.welfare-admin {
+    margin-left: 250px; /* ระยะห่างจาก sidebar */
+    padding: 20px; /* เพิ่ม padding */
+    flex-grow: 1; /* ทำให้พื้นที่ขยายเต็มที่ */
+  }
+  
+  .welfare-admin .form {
+    margin-bottom: 20px; /* ระยะห่างระหว่างฟอร์มและรายการ */
+  }
+  
+  .welfare-admin .form input, .form select {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .welfare-admin button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .welfare-admin table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .welfare-admin table, th, td {
+    border: 1px solid black;
+  }
+  
+  .welfare-admin th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .welfare-admin button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .welfare-admin button:hover {
+    background-color: #45a049; /* เปลี่ยนสีเมื่อวางเมาส์ */
+  }
+  
+  .welfare-admin td button {
+    background-color: #e74c3c; /* สีของปุ่มลบ */
+  }
+  
+  .welfare-admin td button:hover {
+    background-color: #c0392b; /* เปลี่ยนสีเมื่อวางเมาส์ */
+  }
+  
